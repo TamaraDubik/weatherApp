@@ -1,0 +1,41 @@
+@import "./partials/home";
+@import "./partials/variables";
+@import "./partials/welcome";
+@import "./partials/city";
+@import "./partials/forecast";
+@import "./partials/noMatch";
+
+
+
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "MyFont";
+  src: local("MyFont"), url(../fonts/Shrikhand-Regular.ttf) format("woff");
+}
+
+body {
+  padding: 2rem;
+  text-align: center;
+  font-family: "MyFont";
+}
+
+.lightPink {
+  background-color: $light-pink;
+}
+
+.darkPink {
+  background-color: $dark-pink;
+}
+
+
+
+
+
+

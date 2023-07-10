@@ -1,0 +1,388 @@
+.cityComponent {
+  margin: 0 auto;
+
+  h1 {
+    font-size: 1rem;
+    color: $dark-green;
+  }
+
+  .mainBox {
+    display: flex;
+    flex-direction: column;
+
+    img {
+      max-width: 100%;
+      filter: $dark-green-pic;
+      animation: floatingEffect 4s ease-in-out infinite;
+    }
+
+    .box {
+      max-width: 100vw;
+      height: 60vw;
+      border-radius: 2rem;
+      background-color: $dark-pink;
+      display: flex;
+      flex-direction: column;
+      margin: 5vw 0;
+      justify-content: center;
+      align-items: center;
+      gap: 1vw;
+
+     
+
+      @keyframes floatingEffect {
+        0% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-10px);
+        }
+        100% {
+          transform: translateY(0);
+        }
+      }
+
+      div {
+        font-size: 10vw;
+        color: $dark-green;
+      }
+
+      p {
+        font-size: 8vw;
+        color: white;
+      }
+
+      button {
+        font-size: 7vw;
+        padding: 0.5rem 1rem;
+        border-radius: 1rem;
+        color: white;
+        background-color: $dark-green;
+        width: 50vw;
+        border: none;
+
+        .link {
+          text-decoration: none;
+          color: white;
+          font-family: "MyFont";
+        }
+      }
+    }
+  }
+
+  .feelsLike {
+    background-color: $dark-pink;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+    margin-bottom: 5vw;
+
+    .text {
+      font-size: 7vw;
+      color: $dark-green;
+    }
+
+    .info {
+      font-size: 7vw;
+      color: $dark-green;
+    }
+
+    .icon {
+      color: white;
+      font-size: 13vw;
+      margin-right: 1rem;
+    }
+  }
+
+  .smallBoxes {
+    flex-direction: column;
+
+    .container {
+      background-color: $dark-pink;
+      border-radius: 1rem;
+      padding: 1rem 2rem;
+      display: flex;
+      align-items: center;
+      margin-bottom: 5vw;
+
+      .icon {
+        color: white;
+        font-size: 13vw;
+        margin-right: 1rem;
+      }
+
+      .sub-container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        .text {
+          font-size: 7vw;
+          color: $dark-green;
+        }
+
+        .info {
+          font-size: 7vw;
+          color: $dark-green;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 767px) {
+  .cityComponent {
+    margin: 0 auto;
+
+    h1 {
+      font-size: 5vw;
+      color: $dark-green;
+    }
+
+    .mainBox {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+
+      img {
+        max-width: 50%;
+        filter: $dark-green-pic;
+      }
+
+      .box {
+        width: 40vw;
+        height: 40vw;
+        border-radius: 2rem;
+        background-color: $dark-pink;
+        display: flex;
+        flex-direction: column;
+        margin: 5vw 0;
+        justify-content: center;
+        align-items: center;
+        gap: 1vw;
+
+        div {
+          font-size: 7vw;
+          color: $dark-green;
+        }
+
+        p {
+          font-size: 4.5vw;
+          color: white;
+        }
+
+        button {
+          font-size: 5vw;
+          padding: 0.5rem 1rem;
+          border-radius: 1rem;
+          color: white;
+          background-color: $dark-green;
+          width: 30vw;
+          border: none;
+
+          .link {
+            text-decoration: none;
+            color: white;
+            font-family: "MyFont";
+            font-size: 4vw;
+          }
+        }
+      }
+    }
+
+    .feelsLike {
+      background-color: $dark-pink;
+      border-radius: 1rem;
+      display: flex;
+      align-items: center;
+      padding: 1rem 2rem;
+      margin-bottom: 5vw;
+
+      .text {
+        font-size: 5vw;
+        color: $dark-green;
+      }
+
+      .info {
+        font-size: 5vw;
+        color: $dark-green;
+      }
+
+      .icon {
+        color: white;
+        font-size: 10vw;
+        margin-right: 1rem;
+      }
+    }
+
+    .smallBoxes {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      flex-direction: row;
+
+      .container {
+        width: 40vw;
+        background-color: $dark-pink;
+        border-radius: 1rem;
+        padding: 1rem 2rem;
+        display: flex;
+        align-items: center;
+        margin-bottom: 5vw;
+
+        .icon {
+          color: white;
+          font-size: 5vw;
+          margin-right: 1rem;
+        }
+
+        .sub-container {
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+
+          .text {
+            font-size: 3vw;
+            color: $dark-green;
+          }
+
+          .info {
+            font-size: 3vw;
+            color: $dark-green;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+@media (min-width: 1440px) {
+ 
+  .cityComponent {
+    margin: 0 auto;
+    max-width: 2000px;
+
+    h1 {
+      font-size: 2vw;
+      color: $dark-green;
+    }
+
+    .mainBox {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+
+      img {
+        max-width: 30vw;
+        filter: $dark-green-pic;
+      }
+
+      .box {
+        max-width: 30vw;
+        max-height: 30vw;
+        border-radius: 2rem;
+        background-color: $dark-pink;
+        display: flex;
+        flex-direction: column;
+        margin: 3vw 0;
+        justify-content: center;
+        align-items: center;
+        gap: 1vw;
+
+        div {
+          font-size: 4vw;
+          color: $dark-green;
+        }
+
+        p {
+          font-size: 3vw;
+          color: white;
+        }
+
+        button {
+          font-size: 3vw;
+          padding: 0.5rem 1rem;
+          border-radius: 1rem;
+          color: white;
+          background-color: $dark-green;
+          max-width: 25vw;
+          border: none;
+
+          .link {
+            text-decoration: none;
+            color: white;
+            font-family: "MyFont";
+            font-size: 3vw;
+          }
+        }
+      }
+    }
+
+    .feelsLike {
+      background-color: $dark-pink;
+      border-radius: 1rem;
+      display: flex;
+      align-items: center;
+      padding: 1rem 2rem;
+      margin-bottom: 5vw;
+
+      .text {
+        font-size: 3vw;
+        color: $dark-green;
+      }
+
+      .info {
+        font-size: 3vw;
+        color: $dark-green;
+      }
+
+      .icon {
+        color: white;
+        font-size: 8vw;
+        margin-right: 1rem;
+      }
+    }
+
+    .smallBoxes {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      flex-direction: row;
+
+      .container {
+        max-width: 20vw;
+        background-color: $dark-pink;
+        border-radius: 1rem;
+        padding: 1rem 2rem;
+        display: flex;
+        align-items: center;
+        margin-bottom: 5vw;
+
+        .icon {
+          color: white;
+          font-size: 3vw;
+          margin-right: 1rem;
+        }
+
+        .sub-container {
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+
+          .text {
+            font-size: 2vw;
+            color: $dark-green;
+          }
+
+          .info {
+            font-size: 2vw;
+            color: $dark-green;
+          }
+        }
+      }
+    }
+  }
+}

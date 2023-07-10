@@ -1,0 +1,58 @@
+@import "./variables";
+
+
+
+.homeComponent {
+    form {
+      margin: 1rem auto;
+      color: #555;
+      display: flex;
+      padding: 2px;
+      border: 3px solid $dark-pink;
+      border-radius: 2rem;
+      max-width: 20rem;
+  
+      input {
+        border: none;
+        background: transparent;
+        margin: 0;
+        padding: 7px 8px;
+        font-size: 14px;
+        font-weight: 100;
+        color: inherit;
+        border: 1px solid transparent;
+        border-radius: inherit;
+        width: 100%;
+      }
+  
+      input::placeholder {
+        color: $light-green;
+      }
+  
+      .searchBtn {
+        width: 40px;
+        padding: 0;
+        margin: 0;
+        border: 1px solid transparent;
+        border-radius: inherit;
+        background: transparent;
+        cursor: pointer;
+        opacity: 0.7;
+      }
+  
+      .searchBtn:focus,
+      input:focus {
+        border-color: transparent;
+        outline: none;
+      }
+    }
+  
+    //!NAVLINK "HOME"
+    .link {
+      color: $light-green;
+      font-size: 1rem;
+      &:hover {
+        color: var($dark-pink);
+      }
+    }
+  }
