@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/weatherApp/static/css/main.88abcad0.css",
+    "main.js": "/weatherApp/static/js/main.92804549.js",
+    "static/media/Shrikhand-Regular.ttf": "/weatherApp/static/media/Shrikhand-Regular.46d0e294e7dd0d5ee041.ttf",
+    "static/media/noMatch.png": "/weatherApp/static/media/noMatch.979879062c0bd44f1c3a.png",
+    "static/media/main.png": "/weatherApp/static/media/main.0b2f42b8f976379e54c1.png",
+    "static/media/drizzle (1).svg": "/weatherApp/static/media/drizzle (1).acf2adfb582af25ec7d0d1e05b722ea1.svg",
+    "static/media/rain (1).svg": "/weatherApp/static/media/rain (1).bb7e41918d661e570db6d3ef3d18a39d.svg",
+    "static/media/thunderstorm (1).svg": "/weatherApp/static/media/thunderstorm (1).a75422ebdefae99e15537d66bc2b522c.svg",
+    "static/media/storm (1).svg": "/weatherApp/static/media/storm (1).083e764dba2eb623c82b4674b75405a3.svg",
+    "static/media/clouds (1).svg": "/weatherApp/static/media/clouds (1).2f7e3ded822ed21db451b12f730bd1c5.svg",
+    "static/media/snow (1).svg": "/weatherApp/static/media/snow (1).b9e8a96e01b674aa3564b68d17965891.svg",
+    "static/media/mainPicNew.svg": "/weatherApp/static/media/mainPicNew.0a0f64be8a81f55f15e2b99a885f6171.svg",
+    "static/media/sun.svg": "/weatherApp/static/media/sun.46157d796f3618a9c200a2daed8046b3.svg",
+    "index.html": "/weatherApp/index.html",
+    "main.88abcad0.css.map": "/weatherApp/static/css/main.88abcad0.css.map",
+    "main.92804549.js.map": "/weatherApp/static/js/main.92804549.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.88abcad0.css",
+    "static/js/main.92804549.js"
+  ]
+}
