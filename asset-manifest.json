@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/weatherApp/static/css/main.88abcad0.css",
-    "main.js": "/weatherApp/static/js/main.92804549.js",
+    "main.js": "/weatherApp/static/js/main.d9fa03fe.js",
     "static/media/Shrikhand-Regular.ttf": "/weatherApp/static/media/Shrikhand-Regular.46d0e294e7dd0d5ee041.ttf",
     "static/media/noMatch.png": "/weatherApp/static/media/noMatch.979879062c0bd44f1c3a.png",
     "static/media/main.png": "/weatherApp/static/media/main.0b2f42b8f976379e54c1.png",
@@ -15,10 +15,10 @@
     "static/media/sun.svg": "/weatherApp/static/media/sun.46157d796f3618a9c200a2daed8046b3.svg",
     "index.html": "/weatherApp/index.html",
     "main.88abcad0.css.map": "/weatherApp/static/css/main.88abcad0.css.map",
-    "main.92804549.js.map": "/weatherApp/static/js/main.92804549.js.map"
+    "main.d9fa03fe.js.map": "/weatherApp/static/js/main.d9fa03fe.js.map"
   },
   "entrypoints": [
     "static/css/main.88abcad0.css",
-    "static/js/main.92804549.js"
+    "static/js/main.d9fa03fe.js"
   ]
 }
