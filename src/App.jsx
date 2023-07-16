@@ -28,12 +28,12 @@ function App() {
   `}</style>
       </Helmet>
       <Routes>
-        <Route path="/" element={<Home />}>
+        <Route path="/weatherApp" element={<Home />}>
           <Route index element={<Welcome />} />
           {isCityValid ? (
             <>
-              <Route path="/:city" element={<City />} exact />
-              <Route path="/:city/forecast" element={<Forecast />} exact />
+              <Route path="/weatherApp/:city" element={<City />} exact />
+              <Route path="/weatherApp/:city/forecast" element={<Forecast />} exact />
             </>
           ) : (
             <Route path="*" element={<NoMatch />} />
